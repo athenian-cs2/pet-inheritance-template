@@ -13,13 +13,13 @@ public class MyTests {
 
     // This test is testing your getters
     @Test
-    public void testGetters {
+    public void testGetters() {
         assertEquals("Poodle", new Dog("Steve", 1, "Poodle").getBreed(), "Your getBreed method does not work!");
     }
 
     // This test is testing your setters
     @Test
-    public void testSetters {
+    public void testSetters() {
         Dog d1 = new Dog("Lily", 1, "Dachshund");
         assertEquals("Mixed", d1.setBreed("Mixed").getBreed(), "Your setBreed method does not work!");
     }
