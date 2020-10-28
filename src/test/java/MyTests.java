@@ -19,7 +19,7 @@ public class MyTests {
 
     // This test is testing your setters
     @Test
-    public void testGetters {
+    public void testSetters {
         Dog d1 = new Dog("Lily", 1, "Dachshund");
         assertEquals("Mixed", d1.setBreed("Mixed").getBreed(), "Your setBreed method does not work!");
     }
