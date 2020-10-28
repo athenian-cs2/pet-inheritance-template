@@ -21,7 +21,8 @@ public class MyTests {
     @Test
     public void testSetters() {
         Dog d1 = new Dog("Lily", 1, "Dachshund");
-        assertEquals("Mixed", d1.setBreed("Mixed").getBreed(), "Your setBreed method does not work!");
+        d1.setBreed("Mixed");
+        assertEquals("Mixed", d1.getBreed(), "Your setBreed method does not work!");
     }
     
 }
