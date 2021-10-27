@@ -20,7 +20,34 @@ Now, check add code to [Dog.java](src/main/java/Dog.java). This class will inher
 
 You should code to [Dog.java](src/main/java/Dog.java) to define the class, and then add code to [DogClient.java](src/main/java/DogClient.java) to test your code
 
-## Run your client code with:
+The [Person.java](src/main/java/Person.java) and [Student.java](src/main/java/Student.java) classes are included as examples of a superclass and subclass, respectively. 
+
+## Run your code with:
+The easiest way to run your code is to press the play button in [DogClient.java](src/main/java/DogClient.java).
+
+However, you can also run your code by typing the following into the Terminal.
+
 ```shell script
 make run
+```
+
+Alternatively, if that doesn't work, use:
+
+```shell script
+./gradlew run
+```
+
+## Run your tests with:
+The easiest way to run your code is to press the play button in [MyTests.java](src/test/java/MyTests.java).
+
+However, you can also run your code by typing the following into the Terminal.
+
+```shell script
+make test
+```
+
+Alternatively, if that doesn't work, use:
+
+```shell script
+./gradlew test
 ```
