@@ -39,14 +39,10 @@ public class Person {
 
     // setters: changes the value of the instance variables
     public void setFirstName(String firstName) {
-        if (firstName.trim().length() != 0) {
-            this.firstName = firstName;
-        }
+        this.firstName = firstName;
     }
 
     public void setLastName(String lastName) {
-        if (lastName.trim().length() != 0) {
-            this.lastName = lastName;
-        }
+        this.lastName = lastName;
     }
 }
