@@ -2,7 +2,7 @@
 
 In this assignment, you'll be practicing inheritance and implementing a Dog class to represent dogs.
 
-You should first out the [Pet.java](src/main/java/Pet.java) file. This class will be the superclass (parent class) of your Dog class. 
+You should first check out the [Pet.java](src/main/java/Pet.java) file. This class will be the superclass (parent class) of your Dog class. 
 
 The Pet Class has the following components:
 * Private instance variables for name and age
