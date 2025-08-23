@@ -1,18 +1,13 @@
 public class Dog extends Pet {
-    // Instance variable(s)
+  // Instance variable(s)
 
+  // Constructors
 
-    // Constructors
-    
+  // makeNoise() method
 
-    // makeNoise() method
+  // toString method
 
+  // Getter
 
-    // toString method
-
-
-    // Getter
-
-
-    // Setter
+  // Setter
 }
