@@ -1,4 +1,4 @@
-# Dog Class
+# Inheritance
 
 In this assignment, you'll be practicing inheritance and implementing a Dog class to represent dogs.
 
